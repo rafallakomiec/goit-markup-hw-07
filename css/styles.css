@@ -194,6 +194,10 @@ body {
   align-items: center;
 }
 
+.contact-list__point {
+  margin: 0;
+}
+
 .contact-list__point--internal-margin {
   margin-left: 50px;
 }
@@ -310,6 +314,10 @@ body {
 
 .social__icons-cont--internal-margin {
   margin-left: 10px;
+}
+
+.social__icon {
+  fill: currentColor;
 }
 
 .social__icon--footer {
@@ -473,11 +481,15 @@ body {
   justify-content: space-between;
 }
 
-.opinions__list--internal-margin {
+.opinions__list-point {
+  margin: 0;
+}
+
+.opinions__list-point--internal-margin {
   margin-left: 30px;
 }
 
-.opinions__list--limiter {
+.opinions__list-point--limiter {
   max-width: 270px;
 }
 
@@ -761,7 +773,7 @@ body {
   pointer-events: none;
 }
 
-.modal__checkmark--custom {
+.modal__custom-checkmark {
   padding: 0;
   margin-right: 7px;
   outline: none;
@@ -776,12 +788,12 @@ body {
     border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.modal__agreement:focus-within .modal__checkmark--custom,
-.modal__agreement:hover .modal__checkmark--custom {
+.modal__agreement:focus-within .modal__custom-checkmark,
+.modal__agreement:hover .modal__custom-checkmark {
   border-color: var(--primary-accent-color);
 }
 
-.modal__checkmark:checked + .modal__checkmark--custom {
+.modal__checkmark:checked + .modal__custom-checkmark {
   background-color: var(--primary-accent-color);
   fill: var(--tertiary-txt-color);
 }
@@ -855,7 +867,11 @@ body {
   justify-content: center;
 }
 
-.projects-header__filters-list--internal-margin {
+.projects-header__filters-list-point {
+  margin: 0;
+}
+
+.projects-header__filters-list-point--internal-margin {
   margin-left: 8px;
 }
 
